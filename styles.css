@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #d9d9d9;
+}
+
+.box-top {
+    padding: 15px;
+    background-color: #000000;
+
+    text-align: center;
+    font-size: 1em;
+    color: #8a2be2;
+}
+
+.header {
+    width: 100%;
+    height: 15em;
+    background-color: #8a2be2;
+    padding: 6em 42px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.header h2 {
+    display: inline-block;
+    margin: 15px;
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+main {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5em;
+    width: 80%;
+}
+
+.box-images {
+    display: block;
+    margin: 2em auto 4em auto;
+    width: 90%;
+}
+
+.box-images div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.prices {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
+.buy {
+    width: 160px;
+    height: 39px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+.buy:hover {
+    background-color: #8a2be2;
+}
+
+.buy:active {
+    background-color: #8a2be2;
+    opacity: .9;
+}
+
+.sizes {
+    display: flex;
+    justify-content: space-around;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.label {
+    margin-right: .3em;
+}
+
+footer {
+    background-color: #E8A6FF;
+    height: 6em;
+    padding-top: 11px;
+    padding-left: 58px;
+}
+
+.cadastre-box h2 {
+    margin-bottom: .8em;
+}
+
+.label2 {
+    margin-left: 1em;
+}
+
+.input {
+    margin-left: .3em;
+}
+
+.send {
+    margin-left: 1em;
+    width: 113px;
+    height: 20px;
+}
